@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv sh
+#!/command/with-contenv sh
 
 echo "================================="
 echo $HL_USER_USERNAME
