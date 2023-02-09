@@ -8,5 +8,8 @@ RUN apk add --update openssl openssh-server && \
 # Add the files
 ADD root /
 
+RUN chmod +x /etc/cont-init.d/99-ssh-server
+RUN chmod +x /etc/services.d/openssh-server/run
+
 # Expose the ports for nginx
 EXPOSE 2222
