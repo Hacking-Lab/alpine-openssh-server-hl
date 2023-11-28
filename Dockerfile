@@ -1,4 +1,4 @@
-FROM hackinglab/alpine-base-hl:3.2
+FROM hackinglab/alpine-base-hl:latest
 MAINTAINER Ivan Buetler <ivan.buetler@compass-security.com>
 
 # Install openssh server
