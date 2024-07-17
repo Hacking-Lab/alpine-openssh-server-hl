@@ -1,5 +1,5 @@
 FROM hackinglab/alpine-base-hl:latest
-LABEL maintainer="Ivan Buetler <ivan.buetler@compass-security.com>"
+MAINTAINER Ivan Buetler <ivan.buetler@compass-security.com>
 
 # Install openssh server
 RUN apk add --update openssl openssh-server openssh && \
